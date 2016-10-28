@@ -1,0 +1,7 @@
+/public/stylesheets/*.css
+/public/stylesheets/*.css.map
+
+.DS_Store
+
+.idea/
+.sass-cache/

@@ -33,7 +33,7 @@ $ bundle install
 This is a [Sinatra](http://www.sinatrarb.com/documentation.html) application. To run the application:
 
 ```
-$ rerun 'rackup'
+$ bundle exec rerun 'rackup'
 ```
 
 If everything has installed correctly, this should start an application on [http://localhost:9292/](http://localhost:9292/).

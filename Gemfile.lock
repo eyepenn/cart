@@ -37,5 +37,5 @@ DEPENDENCIES
   sinatra
   thin
 
-BUNDLED WITH
-   1.13.6
+RUBY VERSION
+   ruby 2.2.5p319

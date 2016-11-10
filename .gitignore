@@ -1,6 +1,8 @@
 /public/stylesheets/*.css
 /public/stylesheets/*.css.map
 
+*.patch
+
 .DS_Store
 
 .idea/

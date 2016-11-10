@@ -1,0 +1,96 @@
+/*
+Error: Undefined variable: "$source-sans-light".
+        on line 6 of public/stylesheets/sass/layout/_header.scss
+        from line 2 of ./public/stylesheets/sass/layout/index.scss
+
+1: @import 'grid';
+2: @import 'header';
+3: @import 'main';
+4: @import 'article';
+
+Backtrace:
+public/stylesheets/sass/layout/_header.scss:6
+./public/stylesheets/sass/layout/index.scss:2
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/rack.rb:51:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/connection.rb:86:in `block in pre_process'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `catch'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/connection.rb:84:in `pre_process'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/connection.rb:53:in `process'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/connection.rb:39:in `receive_data'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/eventmachine-1.2.0.1/lib/eventmachine.rb:194:in `run_machine'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/eventmachine-1.2.0.1/lib/eventmachine.rb:194:in `run'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/backends/base.rb:73:in `start'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/thin-1.7.0/lib/thin/server.rb:162:in `start'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/thin.rb:19:in `run'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/server.rb:147:in `start'
+/Users/markme/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-1.6.4/bin/rackup:4:in `<top (required)>'
+/Users/markme/.rbenv/versions/2.2.5/bin/rackup:23:in `load'
+/Users/markme/.rbenv/versions/2.2.5/bin/rackup:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$source-sans-light\".\A         on line 6 of public/stylesheets/sass/layout/_header.scss\A         from line 2 of ./public/stylesheets/sass/layout/index.scss\A \A 1: @import 'grid';\A 2: @import 'header';\A 3: @import 'main';\A 4: @import 'article';"; }

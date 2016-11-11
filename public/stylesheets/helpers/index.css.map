@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,UAAW;EACT,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,KAAK;;AAElB,YAAa;EACX,UAAU,EAAE,MAAM",
-"sources": ["../sass/helpers/_alignment.scss"],
-"names": [],
-"file": "index.css"
-}

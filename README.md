@@ -68,7 +68,7 @@ If everything has installed correctly, this should start an application on [http
 
 ## Submitting your solution
 
-Once your exercise is complete, commit your work, create a patch file and send that to us. Please _do not_ fork this pubic GitHub repo. We don't want other people copying your work! To create the patch:
+Once your exercise is complete, commit your work, create a patch file and send that to us. Please _do not_ fork this public GitHub repo. We don't want other people copying your work! To create the patch:
 
 ```
 git format-patch origin/master --stdout > fe-ws.patch

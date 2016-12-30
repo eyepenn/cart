@@ -6,8 +6,31 @@
     <link rel="stylesheet" href="/stylesheets/application.css">
   </head>
   <body>
-  	<div id="holder" class="col-md-10 col-md-offset-1">
+<div id="holder" class="col-md-10 col-md-offset-1">
     <h1><%= @title %></h1>
-  	</div>
+<div class="col-md-6 col-xs-12">
+    <% @listings.each do |listing| %>
+	    <div class="listing">
+	    <img src="/images/property.jpg">
+	    	<button class="add"></button>
+		    <div class="address"><%= listing[:address] %></div>
+		    <div class="location"><%= listing[:location] %></div>	    
+		    <div class="clear_both"></div>
+	    </div>
+  <% end %>
+</div>
+<div class="col-md-6 col-xs-12">
+  <% @listings.each do |listing| %>
+	    <div class="listing">
+	    <img src="/images/property.jpg">
+	    	<button class="add"></button>
+		    <div class="address"><%= listing[:address] %></div>
+		    <div class="location"><%= listing[:location] %></div>
+		    <div class="clear_both"></div>
+	    </div>
+  <% end %>
+</div>
+    <div id="cart" class="pull-right">Count:</div>
+</div>
   </body>
 </html>

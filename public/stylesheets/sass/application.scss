@@ -5,7 +5,7 @@ padding:6px;
     color: #000000;
     font-weight:300;
     padding:0px;
-    margin:8px 0px;
+    margin:8px 0px 18px 0;
   }
   #holder {
   	border:1px solid #d8d8d8;
@@ -13,5 +13,43 @@ padding:6px;
   	max-width:980px;
   	min-width:320px;
   	text-align:center;
+  }
+  .listing {
+  	background-color:#FFFFFF;
+  	margin:0 0 10px 0;
+  	text-align:left;
+  	box-shadow: 0px 5px 5px 0px #ededed;
+  }
+  .listing:hover {
+    box-shadow: 0px 5px 5px 0px #a8a8a8;
+  }
+  .listing img {
+  	margin:20px;
+  	float:left;
+  }
+  .listing .address {
+    padding:29px 0 1px 0;
+    color:#000000;
+    font-size:13pt;
+  }
+  .listing .location {
+  	color:#919191;
+  	font-size:11pt;
+  }
+  .listing .add {
+  	float:right;
+  	height:40px;
+  	width:90px;
+  	background-image:url(../images/add.jpg);
+  	margin:31px 15px 0 0;
+  	border:0px;
+  }
+  #cart {
+  	width:100px;
+  	text-align:left;
+  	margin-bottom:10px;
+  }
+  .clear_both {
+  	clear:both;
   }
 }

@@ -37,17 +37,33 @@ padding:6px;
   	font-size:11pt;
   }
   .listing .add {
+    margin:31px 15px 0 0;
+    padding:2px 17px 0 0;
   	float:right;
-  	height:40px;
-  	width:90px;
-  	background-image:url(../images/add.jpg);
-  	margin:31px 15px 0 0;
-  	border:0px;
+  	height:38px;
+  	width:88px;
+    background-color:#FFFFFF;
+  	background-image:url(../images/cart_active.png);
+    background-repeat:no-repeat;
+    background-position:21px 14px;
+    border:1px solid #d8d8d8;
+    font-size:8pt;
+    font-weight:bold;
+    color:#0583c7;
+    text-align:right;
+  }
+  .listing .add:hover {
+    background-color:#0583c7;
+    background-image:url(../images/cart.png);
+    color:#FFFFFF;
   }
   #cart {
   	width:100px;
   	text-align:left;
   	margin-bottom:10px;
+  }
+  .clear_left {
+    clear:left;
   }
   .clear_both {
   	clear:both;

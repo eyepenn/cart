@@ -12,7 +12,7 @@
     <% @listings.each do |listing| %>
 	    <div class="listing">
 	    <img src="/images/property.jpg">
-	    	<button class="add"></button>
+	    	<button class="add">ADD</button>
 		    <div class="address"><%= listing[:address] %></div>
 		    <div class="location"><%= listing[:location] %></div>	    
 		    <div class="clear_both"></div>
@@ -23,7 +23,7 @@
   <% @listings.each do |listing| %>
 	    <div class="listing">
 	    <img src="/images/property.jpg">
-	    	<button class="add"></button>
+	    	<button class="add">ADD</button>
 		    <div class="address"><%= listing[:address] %></div>
 		    <div class="location"><%= listing[:location] %></div>
 		    <div class="clear_both"></div>
@@ -31,6 +31,7 @@
   <% end %>
 </div>
     <div id="cart" class="pull-right">Count:</div>
+    <div class="clear_both"></div>
 </div>
   </body>
 </html>

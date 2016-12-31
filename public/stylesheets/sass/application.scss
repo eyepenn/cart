@@ -43,18 +43,20 @@ padding:6px;
   	height:38px;
   	width:88px;
     background-color:#FFFFFF;
-  	background-image:url(../images/cart_active.png);
+  	background-image:url(../images/add.jpg);
     background-repeat:no-repeat;
-    background-position:21px 14px;
+    background-position:0px -2px;
     border:1px solid #d8d8d8;
     font-size:8pt;
     font-weight:bold;
     color:#0583c7;
     text-align:right;
+    overflow:hidden;
   }
   .listing .add:hover {
     background-color:#0583c7;
-    background-image:url(../images/cart.png);
+    background-image:url(../images/add_hover.jpg);
+    background-position:0px -2px;
     color:#FFFFFF;
   }
   #cart {
@@ -67,5 +69,12 @@ padding:6px;
   }
   .clear_both {
   	clear:both;
+  }
+  .check {
+  background-image:url(../images/check.png);
+  width:90px;
+  height:97px;
+  position:relative;
+  top:-100px;
   }
 }

@@ -31,22 +31,26 @@
 	    </div>
   <% end %>
 </div>
-    <div id="cart" class="pull-right">Count:</div>
+    <div id="cart" class="pull-right">Count: <span id="count"></span></div>
     <div class="clear_both"></div>
 </div>
-<div class="clear_left"></div>
+<img src="/images/cart.svg">
+<object id="svg" data="/images/cart.svg" type="svg+xml"></object>
 <script>
 	$(function() {
-		$('.add').click(function(e) {
+		var properties = 0;
+		$('.add').one('click', function(e) {
+			properties += 1;
 			var target = $( e.target );
+			$(this).css("cursor", "default");
         	$(target.children()).animate({
         		marginTop : "+95px"
         		}, function() {
-    //console.log('animation complete');
+    			//console.log(properties);
+    			$( "#count" ).html(properties);
 			});
 		});
 	});
 </script>
-
   </body>
 </html>

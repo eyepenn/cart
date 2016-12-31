@@ -5,7 +5,7 @@ def find_listings
 end
 
 def create_random_address
-  "#{rand(200) + 1} #{['1st', '2nd', '3rd', 'Madison', 'Lexington', 'Park', '5th', '6th'].sample} Avenue"
+  "#{rand(200) + 1} #{['1st', '2nd', '3rd', 'Madison', 'Lexington', 'Park', '5th', '6th'].sample} Ave"
 end
 
 def random_listing

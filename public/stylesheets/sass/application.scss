@@ -13,6 +13,7 @@ padding:6px;
   	max-width:980px;
   	min-width:320px;
   	text-align:center;
+    padding:0 0 10px 0;
   }
   .listing {
   	background-color:#FFFFFF;
@@ -52,6 +53,7 @@ padding:6px;
     color:#0583c7;
     text-align:right;
     overflow:hidden;
+    outline: 0 none;
   }
   .listing .add:hover {
     background-color:#0583c7;
@@ -59,22 +61,76 @@ padding:6px;
     background-position:0px -2px;
     color:#FFFFFF;
   }
+  .check {
+    background-image:url(../images/check.png);
+    width:90px;
+    height:97px;
+    position:relative;
+    top:-100px;
+  #cart_holder {
+    max-width:980px;
+  }
+  }
   #cart {
-  	width:100px;
-  	text-align:left;
-  	margin-bottom:10px;
+    margin:15px 0 4px 0;
+    height:70px;
+    width:70px;
+    background:url(../images/cart_circles.svg);
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0); /* IE 9 */
+    -webkit-transform: scale(0); /* Chrome, Safari, Opera */
+    transform: scale(0);
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear; /* IE 9 */
+    -webkit-transition: all 0.25s linear; /* Chrome, Safari, Opera */
+    transition: all 0.25s linear;
+    opacity: 0;
+  }
+  #cart.fade {
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Chrome, Safari, Opera */
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  #cart.set {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Chrome, Safari, Opera */
+    transform: scale(1);
+  }
+  #cart_icon {
+    position:relative;
+    top:25px;
+    left:18px;
+  }
+  #count{
+    height:24px;
+    width:24px;
+    background:url(../images/green.svg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align:center;
+    font-weight:bold;
+    float:right;
+    padding-top:2px;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -webkit-transition: all 0.3s ease; /* Chrome, Safari, Opera */
+    transition: all 0.3s ease;
+  }
+  #count.animated {
+    -moz-transform: scale(2);
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
   }
   .clear_left {
     clear:left;
   }
   .clear_both {
   	clear:both;
-  }
-  .check {
-  background-image:url(../images/check.png);
-  width:90px;
-  height:97px;
-  position:relative;
-  top:-100px;
   }
 }

@@ -31,11 +31,12 @@
 	    </div>
   <% end %>
 </div>
-    <div id="cart" class="pull-right">Count: <span id="count"></span></div>
-    <div class="clear_both"></div>
+    <div class="clear_left"></div>
 </div>
-<img src="/images/cart.svg">
-<object id="svg" data="/images/cart.svg" type="svg+xml"></object>
+<div id="cart_holder" class="col-md-10 col-md-offset-1">
+<div id="cart" class="pull-right"><img src="/images/cart@2x.png" id="cart_icon"><div id="count">0</div></div>
+</div>
+<div class="clear_both">
 <script>
 	$(function() {
 		var properties = 0;
@@ -46,8 +47,15 @@
         	$(target.children()).animate({
         		marginTop : "+95px"
         		}, function() {
-    			//console.log(properties);
-    			$( "#count" ).html(properties);
+              if (properties === 1) {
+                $("#count").html(properties);
+                $("#cart").addClass("fade");
+                setTimeout('$("#cart").addClass("set");', 400);
+              } else {
+                $("#count").addClass('animated');
+                setTimeout('$("#count").html(' + properties + ');', 300);
+                setTimeout('$("#count").removeClass("animated");', 500);
+              }
 			});
 		});
 	});

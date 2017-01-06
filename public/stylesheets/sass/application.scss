@@ -4,6 +4,7 @@ padding:6px;
   h1 {
     color: #000000;
     font-weight:300;
+    font-size:20pt;
     padding:0px;
     margin:8px 0px 18px 0;
   }
@@ -132,5 +133,10 @@ padding:6px;
   }
   .clear_both {
   	clear:both;
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  .listing .address {font-size: 10pt;}
+  .listing .location {font-size: 10pt;}
+  h1 {font-size:16pt;}
   }
 }
